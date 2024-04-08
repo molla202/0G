@@ -58,7 +58,7 @@ rm -rf build
 ```
 🚧System link
 ```
-sudo ln -s $HOME/.evmosd/cosmovisor/genesis $HOME/.evmosd/cosmovisor/evmosd -f
+sudo ln -s $HOME/.evmosd/cosmovisor/genesis $HOME/.evmosd/cosmovisor/current -f
 sudo ln -s $HOME/.evmosd/cosmovisor/current/bin/evmosd /usr/local/bin/evmosd -f
 ```
 🚧Cosmovisor indirelim
