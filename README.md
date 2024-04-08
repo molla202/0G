@@ -135,7 +135,7 @@ curl -L http://37.120.189.81/0g_testnet/0g_snap.tar.lz4 | tar -I lz4 -xf - -C $H
 
 mv $HOME/.evmosd/priv_validator_state.json.backup $HOME/.evmosd/data/priv_validator_state.json
 ```
-### Başlatalım
+### Başlatalım   
 ```
 sudo systemctl daemon-reload
 sudo systemctl restart evmosd
