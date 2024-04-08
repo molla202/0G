@@ -58,8 +58,8 @@ rm -rf build
 ```
 🚧System link
 ```
-sudo ln -s $HOME/.evmosd/cosmovisor/genesis $HOME/.babylond/cosmovisor/evmosd -f
-sudo ln -s $HOME/.evmosd/cosmovisor/current/bin/babylond /usr/local/bin/evmosd -f
+sudo ln -s $HOME/.evmosd/cosmovisor/genesis $HOME/.evmosd/cosmovisor/evmosd -f
+sudo ln -s $HOME/.evmosd/cosmovisor/current/bin/evmosd /usr/local/bin/evmosd -f
 ```
 🚧Cosmovisor indirelim
 ```
