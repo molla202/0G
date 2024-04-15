@@ -175,8 +175,17 @@ evmosd tx staking create-validator \
   -y
 ```
 
+### hata alıorsanız
 
 
+```
+curl -Ls https://raw.githubusercontent.com/molla202/0G/main/app.toml > $HOME/.evmosd/config/app.toml
+curl -Ls https://raw.githubusercontent.com/molla202/0G/main/config.toml > $HOME/.evmosd/config/config.toml
+curl -Ls https://raw.githubusercontent.com/molla202/0G/main/addrbook.json > $HOME/.evmosd/config/addrbook.json
+sudo systemctl daemon-reload
+sudo systemctl restart evmosd
+sudo journalctl -u evmosd.service -f --no-hostname -o cat
+```
 
 
 
