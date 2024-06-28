@@ -48,6 +48,7 @@ source $HOME/.bash_profile
 ```
 cd $HOME
 rm -rf $HOME/0g-chain
+mv .0gchain .0gchain1
 git clone -b v0.2.3 https://github.com/0glabs/0g-chain
 cd 0g-chain
 git checkout tags/v0.2.3
